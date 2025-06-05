@@ -15,11 +15,12 @@
                 "ms-vscode.cpptools",                   // Soporte esencial para C/C++
                 "dank-j.ceedling-test-adapter",         // ¡Plugin para ver y ejecutar tests de Ceedling desde la GUI!
                 "eamodio.gitlens",                      // Mejora la integración con Git
-                "mhutchie.git-graph"                    // Visualizador de grafos de Git
+                "mhutchie.git-graph",                    // Visualizador de grafos de Git
+                "ms-vscode.cpptools-extension-pack"
             ]
         }
     },
     
     // Comando que se ejecuta después de que el contenedor se haya creado
-    "postCreateCommand": "sudo gem install ceedling"
+    "postCreateCommand": "gem install ceedling"
 }
